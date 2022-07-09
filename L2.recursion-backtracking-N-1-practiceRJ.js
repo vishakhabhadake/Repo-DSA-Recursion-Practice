@@ -1,11 +1,11 @@
-// print 1-n with normal recursion
-let n = 4;
+// print N to 1 using backtracking
 
 var f = function(i,n){
     if(i>n) return;
 
-    console.log(i);
     f(i+1,n);
+    console.log(i);
 }
 
+let n = 10;
 f(1,n);
